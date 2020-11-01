@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "bin": "scripts",
+  "description": "JavaScript script collection",
+  "main": "src/index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [],
+  "author": {
+    "name": "Hu Kun",
+    "email": "Mrhukun@gmail.com"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage",
+    "format": "npx prettier --write '**/*.{ts,js,md}'"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "yargs": "^16.1.0"
+  }
+}
